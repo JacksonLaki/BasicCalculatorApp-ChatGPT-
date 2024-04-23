@@ -181,4 +181,126 @@
         app:layout_constraintStart_toEndOf="@id/btnMultiply"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+
+
+    <!-- Buttons for numbers -->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_constraintTop_toBottomOf="@id/tvDisplay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn2"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Add buttons for numbers 2-9 -->
+
+    <!-- Button for zero -->
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintTop_toBottomOf="@id/btn8"
+        app:layout_constraintStart_toStartOf="@id/btn8"
+        app:layout_constraintEnd_toEndOf="@id/btn8"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Button for decimal point -->
+    <Button
+        android:id="@+id/btnDecimal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="."
+        app:layout_constraintTop_toBottomOf="@id/btn0"
+        app:layout_constraintStart_toStartOf="@id/btn0"
+        app:layout_constraintEnd_toStartOf="@id/btnDivide"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Buttons for arithmetic operations -->
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:text="0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Buttons for numbers -->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_constraintTop_toBottomOf="@id/tvDisplay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn2"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Add buttons for numbers 2-9 -->
+
+    <!-- Button for zero -->
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintTop_toBottomOf="@id/btn8"
+        app:layout_constraintStart_toStartOf="@id/btn8"
+        app:layout_constraintEnd_toEndOf="@id/btn8"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Button for decimal point -->
+    <Button
+        android:id="@+id/btnDecimal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="."
+        app:layout_constraintTop_toBottomOf="@id/btn0"
+        app:layout_constraintStart_toStartOf="@id/btn0"
+        app:layout_constraintEnd_toStartOf="@id/btnDivide"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Buttons for arithmetic operations -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        app:layout_constraintTop_toBottomOf="@id/btn3"
+        app:layout_constraintStart_toEndOf="@id/btn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Add buttons for subtraction, multiplication, and division -->
+
+    <!-- Button for equals -->
+    <Button
+        android:id="@+id/btnEquals"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="="
+        app:layout_constraintTop_toBottomOf="@id/btnDivide"
+        app:layout_constraintStart_toEndOf="@id/btnDivide"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Button for clear -->
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="C"
+        app:layout_constraintTop_toBottomOf="@id/btnMultiply"
+        app:layout_constraintStart_toEndOf="@id/btnMultiply"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
